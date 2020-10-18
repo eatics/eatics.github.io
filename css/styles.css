@@ -655,7 +655,7 @@ input[type='checkbox'] {
 }
 
 .navbar-custom .navbar-brand.logo-image img {
-	width: 220px;
+    width: 200px;
 	height: 100px;
 	-webkit-backface-visibility: hidden;
 }
@@ -772,7 +772,8 @@ input[type='checkbox'] {
 /*    04. Header     */
 /*********************/
 .header {
-	background: lightblue, url('../images/intro_page.jpg') no-repeat top center;
+	background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)), url('../images/intro_page.jpg') center center no-repeat;
+	background-size: cover;
 }
 
 .header .header-content {
