@@ -1164,8 +1164,9 @@ input[type='checkbox'] {
 
 .tabs .area-2 {
 	height: 27rem;
-	background: url('../images/details-2-background.jpg') center center no-repeat;
+	/*background: url('../images/details-2-background.jpg') center center no-repeat;*/
 	background-size: cover;
+	background-color: #153e52;
 }
 
 
@@ -1232,10 +1233,11 @@ input[type='checkbox'] {
 
 .slider .testimonial-text {
 	margin-bottom: 0.625rem;
+	color: white;
 }
 
 .slider .testimonial-author {
-	color: #484a46;
+	color: white;
 }
 
 
@@ -2166,7 +2168,7 @@ a:hover.back-to-top {
 	}
 
 	.tabs .area-2 {
-		width: 50%;
+		width: 100%;
 		height: 100%;
 		display: inline-block;
 	}
