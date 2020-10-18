@@ -7,5 +7,5 @@
 * **PETICILA Alexandru**
 * **PETICILA Constantin**
 * **TIRCOMNICU Nicoleta**
-* **ICHIM Dumitru-Gabriel**
+* **ICHIM Dumitru Gabriel**
 * **BALANICA Darius**
