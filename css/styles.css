@@ -806,12 +806,12 @@ input[type='checkbox'] {
 /*     05. Intro     */
 /*********************/
 .basic-1 {
-	padding-top: 6.5rem;
-	padding-bottom: 3rem;
+	padding-top: 4rem;
+	padding-bottom: 1rem;
 }
 
 .basic-1 .text-container {
-	margin-bottom: 3rem;
+	margin-bottom: 1rem;
 }
 
 .basic-1 .section-title {
