@@ -772,7 +772,7 @@ input[type='checkbox'] {
 /*    04. Header     */
 /*********************/
 .header {
-	background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)), url('../images/intro_page.jpg') center center no-repeat;
+	background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)), url('../images/intro_page.jpg') center top;
 	background-size: cover;
 }
 
@@ -1171,13 +1171,14 @@ input[type='checkbox'] {
 }
 
 
+/************************/
 /****************************/
 /*     10. Testimonials     */
 /****************************/
 .slider {
-	padding-top: 6.375rem;
-	padding-bottom: 6.5rem;
-	background-color: #fbfbfb;
+	padding-top: 6rem;
+	padding-bottom: 6rem;
+	background-color: #153e52;
 }
 
 .slider h2 {
@@ -1234,11 +1235,17 @@ input[type='checkbox'] {
 
 .slider .testimonial-text {
 	margin-bottom: 0.625rem;
+	font-size: 0.8rem;
 	color: white;
 }
 
 .slider .testimonial-author {
 	color: white;
+}
+
+.slider .testimonial-position {
+	color: white; 
+	font-style: italic;
 }
 
 
@@ -1253,6 +1260,7 @@ input[type='checkbox'] {
 
 .form-1 .text-container {
 	margin-bottom: 4rem;
+	margin-top: 4rem;
 }
 
 .form-1 .section-title {
