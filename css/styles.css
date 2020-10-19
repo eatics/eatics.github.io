@@ -1019,12 +1019,12 @@ input[type='checkbox'] {
 	position: relative;
 	float: left;
 	overflow: hidden;
-	width: 50%;
-	background-color: #000; /* to hide 1px white margin in IE */
+	width: 100%;
+	background-color:#14bf98; /* to hide 1px white margin in IE */
 }
 
 .filter .element-item img {
-	max-width: 100%;
+	width: 100%;
 	margin: 0;
 	transition: all 0.3s;
 }
