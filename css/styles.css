@@ -1261,7 +1261,7 @@ input[type='checkbox'] {
 
 .counter #counter .cell {
 	display: inline-block;
-	width: 9.5rem;
+	width: 23%;
 	margin-bottom: 0.75rem;
 }
 
@@ -1269,14 +1269,13 @@ input[type='checkbox'] {
 	display: inline-block;
 	margin-bottom: 0.125rem;
 	color: #14bf98;
-	font: 700 2.875rem/3.25rem "Montserrat", sans-serif;
+	font: 700 2.575rem/3.25rem "Montserrat", sans-serif;
 	vertical-align: middle;
 }
 
 .counter #counter .counter-info {
 	display: inline-block;
-	margin-left: 0.5rem;
-	font-size: 0.875rem;
+	font-size: 0.99rem;
 	line-height: 1.25rem;
 	vertical-align: middle;
 }
@@ -1643,6 +1642,7 @@ a:hover.back-to-top {
 	}
 
 	.counter #counter .cell {
+		text-align: center;
 	}
 	/* end of about */
 

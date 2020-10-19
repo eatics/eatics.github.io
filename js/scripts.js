@@ -144,10 +144,10 @@
 					duration: 2000,
 					easing: 'swing',
 					step: function() {
-					$this.text(Math.floor(this.countNum));
+					$this.text(Math.floor(this.countNum) + "%");
 					},
 					complete: function() {
-					$this.text(this.countNum);
+					$this.text(this.countNum + "%");
 					//alert('finished');
 					}
 				});
