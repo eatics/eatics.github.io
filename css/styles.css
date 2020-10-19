@@ -16,8 +16,8 @@ Table Of Contents:
 07. KeyPoints
 08. Competition
 09. Advantages
-10. Our Team
-11. 
+10. Key Metrics
+11. Our Team
 12. 
 13. 
 14. 
@@ -1088,9 +1088,32 @@ input[type='checkbox'] {
 }
 
 
+/*********************/
+/*     10. Key Metrics     */
+/*********************/
+.keymetrics {
+    padding-bottom: 1rem;
+}
+
+.keymetrics .text-container {
+    margin-bottom: 1rem;
+}
+
+.keymetrics .section-title {
+    margin-bottom: 0.5rem;
+}
+.keymetrics .ul {
+    list-style-type: circle
+}
+
+.keymetrics .li {
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
 /************************/
 /****************************/
-/*     10. Our Team     */
+/*     11. Our Team     */
 /****************************/
 .slider {
 	padding-top: 8.5rem;
@@ -1279,12 +1302,22 @@ input[type='checkbox'] {
 }
 
 .advantages .list-unstyled .fas {
-	color: #14bf98;
+	color: #153e52;
+	font-size: 0.5rem;
+	line-height: 1.375rem;
+}
+
+.keymetrics .list-unstyled .fas {
+	color: #153e52;
 	font-size: 0.5rem;
 	line-height: 1.375rem;
 }
 
 .advantages .list-unstyled .media-body {
+	margin-left: 0.625rem;
+}
+
+.keymetrics .list-unstyled .media-body {
 	margin-left: 0.625rem;
 }
 
