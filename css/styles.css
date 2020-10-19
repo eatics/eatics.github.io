@@ -920,6 +920,8 @@ input[type='checkbox'] {
 .cards-1 {
 	padding-top: 3rem;
 	padding-bottom: -2rem;
+	align-content: center;
+	display: grid;
 }
 
 .cards-1 .card {
@@ -938,6 +940,7 @@ input[type='checkbox'] {
 	margin-left: auto;
 	line-height: 6rem;
 	text-align: left;
+	display: -webkit-box;
 }
 
 .cards-1 .fa-stack .hexagon {
@@ -1676,6 +1679,9 @@ a:hover.back-to-top {
 /* Min-width width 992px */
 @media (min-width: 992px) {
 	
+	.centeritems{
+		display: flex;
+	}
 	/* General Styles */
 	.p-heading {
 		width: 65%;
