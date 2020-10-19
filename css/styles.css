@@ -1278,6 +1278,16 @@ input[type='checkbox'] {
 	line-height: 1.375rem;
 }
 
+.advantages .list-unstyled .fas {
+	color: #14bf98;
+	font-size: 0.5rem;
+	line-height: 1.375rem;
+}
+
+.advantages .list-unstyled .media-body {
+	margin-left: 0.625rem;
+}
+
 .counter .list-unstyled .media-body {
 	margin-left: 0.625rem;
 }
