@@ -15,8 +15,8 @@ Table Of Contents:
 06. Customers
 07. KeyPoints
 08. Competition
-09. Our Team
-10. 
+09. Advantages
+10. Our Team
 11. 
 12. 
 13. 
@@ -1064,9 +1064,33 @@ input[type='checkbox'] {
 	font: 700 1.125rem/1.625rem "Montserrat", sans-serif;
 }
 
+/*********************/
+/*     09. Advantages     */
+/*********************/
+.advantages {
+    padding-bottom: 1rem;
+}
+
+.advantages .text-container {
+    margin-bottom: 1rem;
+}
+
+.advantages .section-title {
+    margin-bottom: 0.5rem;
+}
+.advantages .ul {
+    list-style-type: circle
+}
+
+.advantages .li {
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+
 /************************/
 /****************************/
-/*     09. Our Team     */
+/*     10. Our Team     */
 /****************************/
 .slider {
 	padding-top: 8.5rem;
