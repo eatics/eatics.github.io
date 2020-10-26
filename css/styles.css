@@ -17,8 +17,8 @@ Table Of Contents:
 08. Competition
 09. Advantages
 10. Key Metrics
-11. Our Team
-12. 
+11. Idenifying the problem 
+12. Our Team
 13. 
 14. 
 15. Project Lightboxes
@@ -688,7 +688,7 @@ input[type='checkbox'] {
 /* Dropdown Menu */
 .navbar-custom .dropdown:hover > .dropdown-menu {
 	display: block; /* this makes the dropdown menu stay open while hovering it */
-	min-width: auto;
+	min-width: max-content;
 	animation: fadeDropdown 0.2s; /* required for the fade animation */
 }
 
@@ -1111,9 +1111,34 @@ input[type='checkbox'] {
     margin-bottom: 0.5rem;
 }
 
+
+/*********************/
+/*     11. Idenifying the problem     */
+/*********************/
+.identif-problem {
+    padding-bottom: 1rem;
+}
+
+.identif-problem .text-container {
+    margin-bottom: 1rem;
+}
+
+.identif-problem .section-title {
+    margin-bottom: 0.5rem;
+}
+.identif-problem .ul {
+    list-style-type: circle
+}
+
+.identif-problem .li {
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+
 /************************/
 /****************************/
-/*     11. Our Team     */
+/*     12. Our Team     */
 /****************************/
 .slider {
 	padding-top: 8.5rem;
