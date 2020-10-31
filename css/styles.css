@@ -85,7 +85,7 @@ h1 {
 
 h2 {
 	color: #484a46;
-	font: 700 1.75rem/2.125rem "Montserrat", sans-serif;
+	font: 700 1.6rem/2.125rem "Montserrat", sans-serif;
 }
 
 h3 {
@@ -1068,7 +1068,7 @@ input[type='checkbox'] {
 /*     09. Advantages     */
 /*********************/
 .advantages {
-    padding-bottom: 1rem;
+    padding-bottom: 7rem;
 }
 
 .advantages .text-container {
@@ -1087,12 +1087,24 @@ input[type='checkbox'] {
     margin-bottom: 0.5rem;
 }
 
+.advantages .list-unstyled .fas {
+	color: #153e52;
+	font-size: 0.5rem;
+	line-height: 1.375rem;
+}
+
+.advantages .list-unstyled .media-body {
+	margin-left: 0.625rem;
+}
 
 /*********************/
 /*     10. Key Metrics     */
 /*********************/
 .keymetrics {
-    padding-bottom: 1rem;
+    padding-top: 6.625rem;	
+	padding-bottom: 5.625rem;	
+	background-color: #153e52;
+	color: white;
 }
 
 .keymetrics .text-container {
@@ -1111,12 +1123,54 @@ input[type='checkbox'] {
     margin-bottom: 0.5rem;
 }
 
+.keymetrics .list-unstyled .fas {
+	color: white;
+	font-size: 0.5rem;
+	line-height: 1.375rem;
+}
 
+.keymetrics .list-unstyled .media-body {
+	margin-left: 0.625rem;
+}
+
+/*********************/
+/*     Rev stream     */
+/*********************/
+.rev-stream {
+	/* padding-bottom: 6.5rem; */
+}
+
+.rev-stream .text-container {
+    margin-bottom: 1rem;
+}
+
+.rev-stream .section-title {
+    margin-bottom: 0.5rem;
+}
+.rev-stream .ul {
+    list-style-type: circle
+}
+
+.rev-stream .li {
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.rev-stream .list-unstyled .fas {
+	color: #153e52;
+	font-size: 0.5rem;
+	line-height: 1.375rem;
+}
+
+.rev-stream .list-unstyled .media-body {
+	margin-left: 0.625rem;
+}
 /*********************/
 /*     11. Idenifying the problem     */
 /*********************/
 .identif-problem {
-    padding-bottom: 1rem;
+	padding-bottom: 6.5rem;
+	padding-top: 8.5rem;
 }
 
 .identif-problem .text-container {
@@ -1133,6 +1187,16 @@ input[type='checkbox'] {
 .identif-problem .li {
     margin-top: 0.5rem;
     margin-bottom: 0.5rem;
+}
+
+.identif-problem .list-unstyled .fas {
+	color: #153e52;
+	font-size: 0.5rem;
+	line-height: 1.375rem;
+}
+
+.identif-problem .list-unstyled .media-body {
+	margin-left: 0.625rem;
 }
 
 
@@ -1296,8 +1360,8 @@ input[type='checkbox'] {
 /*     xx. About     */
 /*********************/
 .counter {
-	padding-top: 8.5rem;
-	padding-bottom: 8.5rem;
+	padding-top: 6.5rem;
+	padding-bottom: 6.5rem;
 }
 
 .counter .image-container {
@@ -1326,25 +1390,9 @@ input[type='checkbox'] {
 	line-height: 1.375rem;
 }
 
-.advantages .list-unstyled .fas {
-	color: #153e52;
-	font-size: 0.5rem;
-	line-height: 1.375rem;
-}
 
-.keymetrics .list-unstyled .fas {
-	color: #153e52;
-	font-size: 0.5rem;
-	line-height: 1.375rem;
-}
 
-.advantages .list-unstyled .media-body {
-	margin-left: 0.625rem;
-}
 
-.keymetrics .list-unstyled .media-body {
-	margin-left: 0.625rem;
-}
 
 .counter .list-unstyled .media-body {
 	margin-left: 0.625rem;
@@ -2124,12 +2172,6 @@ a:hover.back-to-top {
 		margin-left: 1.375rem;
 	}
 	/* end of team */
-
-
-	/* About */
-	.counter {
-		padding-bottom: 6.125rem;
-	}
 
 	.counter .image-container {
 		margin-right: 1.5rem;
