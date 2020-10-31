@@ -18,8 +18,8 @@ Table Of Contents:
 09. Advantages
 10. Key Metrics
 11. Idenifying the problem 
-12. Our Team
-13. 
+12. Iitial Solution
+13. Our Team
 14. 
 15. Project Lightboxes
 16. Contact
@@ -1199,10 +1199,46 @@ input[type='checkbox'] {
 	margin-left: 0.625rem;
 }
 
+/*********************/
+/*     12. Initial solution     */
+/*********************/
+.init-solution {
+    padding-top: 6.625rem;	
+	padding-bottom: 5.625rem;	
+	background-color: #153e52;
+}
+
+.init-solution p {
+	color:white;
+}
+
+.init-solution .text-container {
+    margin-bottom: 1rem;
+}
+
+.init-solution .section-title {
+    margin-bottom: 0.5rem;
+}
+
+/*********************/
+/*     11. Idenifying the problem     */
+/*********************/
+.general-plan {
+	padding-bottom: 6.5rem;
+	padding-top: 6.5rem;
+}
+
+.general-plan .text-container {
+    margin-bottom: 1rem;
+}
+
+.general-plan  .section-title {
+    margin-bottom: 0.5rem;
+}
 
 /************************/
 /****************************/
-/*     12. Our Team     */
+/*     13. Our Team     */
 /****************************/
 .slider {
 	padding-top: 8.5rem;
