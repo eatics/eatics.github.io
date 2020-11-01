@@ -1180,6 +1180,9 @@ input[type='checkbox'] {
 .identif-problem .section-title {
     margin-bottom: 0.5rem;
 }
+.identif-problem .container #brainstorming-img {
+   width: inherit;
+}
 .identif-problem .ul {
     list-style-type: circle
 }
@@ -1209,6 +1212,10 @@ input[type='checkbox'] {
 }
 
 .init-solution p {
+	color:white;
+}
+
+.init-solution .features-container {
 	color:white;
 }
 
@@ -1284,6 +1291,80 @@ input[type='checkbox'] {
 	-webkit-transform: scale(1.03);
 	transform: scale(1.03);
 } 
+
+/**************************/
+/* Insights M2 P 5 */
+.insights {
+	padding-top: 6.625rem;
+	padding-bottom: 5.625rem;
+	background-color: #153e52;
+}
+
+.insights p {
+	color:white;
+}
+
+.insights .features-container {
+	color:white;
+}
+
+.insights .text-container {
+	margin-bottom: 1rem;
+}
+
+.insights .section-title {
+	margin-bottom: 0.5rem;
+}
+.insights .ul {
+	list-style-type: circle
+}
+
+.insights .li {
+	margin-top: 0.5rem;
+	margin-bottom: 0.5rem;
+}
+
+.insights .list-unstyled .fas {
+	color: white;
+	font-size: 0.5rem;
+	line-height: 1.375rem;
+}
+
+.insights .list-unstyled .media-body {
+	margin-left: 0.625rem;
+}
+/**************************/
+/* M2 P6 validation-arguments */
+.validation-arguments {
+	padding-top: 7rem;
+	padding-bottom: 7rem;
+}
+
+.validation-arguments .text-container {
+	margin-bottom: 1rem;
+}
+
+.validation-arguments .section-title {
+	margin-bottom: 0.5rem;
+}
+.validation-arguments .ul {
+	list-style-type: circle
+}
+
+.validation-arguments .li {
+	margin-top: 0.5rem;
+	margin-bottom: 0.5rem;
+}
+
+.validation-arguments .list-unstyled .fas {
+	color: #153e52;
+	font-size: 0.5rem;
+	line-height: 1.375rem;
+}
+
+.validation-arguments .list-unstyled .media-body {
+	margin-left: 0.625rem;
+}
 
 /************************/
 /****************************/
