@@ -1275,6 +1275,16 @@ input[type='checkbox'] {
 	opacity: 0;
 }
 
+.process-description .element-item {
+	background-color: white;
+}
+
+.process-description .element-item:hover img {
+	-moz-transform: scale(0.9);
+	-webkit-transform: scale(0.9);
+	transform: scale(0.9);
+} 
+
 /************************/
 /****************************/
 /*     13. Our Team     */
