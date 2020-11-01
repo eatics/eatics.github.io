@@ -1020,7 +1020,7 @@ input[type='checkbox'] {
 }
 
 /* Hover Animation */
-.filter .element-item {
+.element-item {
 	position: relative;
 	float: left;
 	overflow: hidden;
@@ -1028,20 +1028,20 @@ input[type='checkbox'] {
 	background-color:#14bf98; /* to hide 1px white margin in IE */
 }
 
-.filter .element-item img {
+.element-item img {
 	width: 100%;
 	margin: 0;
 	transition: all 0.3s;
 }
 
-.filter .element-item:hover img {
+.element-item:hover img {
 	-moz-transform: scale(1.15);
 	-webkit-transform: scale(1.15);
 	transform: scale(1.15);
 } 
 /* end of hover animation */
 
-.filter .element-item .element-item-overlay { 
+.element-item .element-item-overlay { 
 	position: absolute;
 	z-index: 2;
 	top: 0;
@@ -1221,7 +1221,7 @@ input[type='checkbox'] {
 }
 
 /*********************/
-/*     11. Idenifying the problem     */
+/*     13. General Plan     */
 /*********************/
 .general-plan {
 	padding-bottom: 6.5rem;
@@ -1234,6 +1234,45 @@ input[type='checkbox'] {
 
 .general-plan  .section-title {
     margin-bottom: 0.5rem;
+}
+
+/*********************/
+/*     13. Process description     */
+/*********************/
+.process-description {
+	padding-bottom: 6.5rem;
+	padding-top: 6.5rem;
+}
+
+.process-description .text-container {
+    margin-bottom: 1rem;
+}
+
+.process-description  .section-title {
+    margin-bottom: 0.5rem;
+}
+
+.process-description .ul {
+    list-style-type: circle
+}
+
+.process-description .li {
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.process-description .list-unstyled .fas {
+	color: #153e52;
+	font-size: 0.5rem;
+	line-height: 1.375rem;
+}
+
+.process-description .list-unstyled .media-body {
+	margin-left: 0.625rem;
+}
+
+.process-description .element-item:hover .element-item-overlay {
+	opacity: 0;
 }
 
 /************************/
@@ -1804,12 +1843,12 @@ a:hover.back-to-top {
 		width: 25%; 
 	}
 	
-	.filter .element-item .element-item-overlay { 
+	.element-item .element-item-overlay { 
 		opacity: 0;
 		transition: opacity 0.3s ease;
 	}
 
-	.filter .element-item:hover .element-item-overlay {
+	.element-item:hover .element-item-overlay {
 		opacity: 1;
 	}
 	/* end of projects */
