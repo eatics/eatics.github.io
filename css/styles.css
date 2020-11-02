@@ -1335,34 +1335,38 @@ input[type='checkbox'] {
 }
 /**************************/
 /* M2 P6 validation-arguments */
-.validation-arguments {
+.customer-validation {
 	padding-top: 7rem;
 	padding-bottom: 7rem;
 }
 
-.validation-arguments .text-container {
+.customer-validation .text-container {
 	margin-bottom: 1rem;
 }
 
-.validation-arguments .section-title {
+.customer-validation .section-title {
 	margin-bottom: 0.5rem;
 }
-.validation-arguments .ul {
+.customer-validation .ul {
 	list-style-type: circle
 }
 
-.validation-arguments .li {
+.customer-validation .li {
 	margin-top: 0.5rem;
 	margin-bottom: 0.5rem;
 }
+.customer-validation .row {
+	margin-top: 25px;
+	margin-bottom: 25px;
+}
 
-.validation-arguments .list-unstyled .fas {
+.customer-validation .list-unstyled .fas {
 	color: #153e52;
 	font-size: 0.5rem;
 	line-height: 1.375rem;
 }
 
-.validation-arguments .list-unstyled .media-body {
+.customer-validation .list-unstyled .media-body {
 	margin-left: 0.625rem;
 }
 
