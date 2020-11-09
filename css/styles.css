@@ -1337,7 +1337,6 @@ input[type='checkbox'] {
 /* M2 P6 validation-arguments */
 .customer-validation {
 	padding-top: 7rem;
-	padding-bottom: 7rem;
 }
 
 .customer-validation .text-container {
@@ -1367,6 +1366,44 @@ input[type='checkbox'] {
 }
 
 .customer-validation .list-unstyled .media-body {
+	margin-left: 0.625rem;
+}
+
+/************************/
+/****************************/
+/*     13. Wireframes     */
+/****************************/
+.wireframes {
+	padding-bottom: 6.5rem;
+	padding-top: 8.5rem;
+}
+
+.wireframes .text-container {
+    margin-bottom: 1rem;
+}
+
+.wireframes .section-title {
+    margin-bottom: 0.5rem;
+}
+.wireframes .container #brainstorming-img {
+   width: inherit;
+}
+.wireframes .ul {
+    list-style-type: circle
+}
+
+.wireframes .li {
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.wireframes .list-unstyled .fas {
+	color: #153e52;
+	font-size: 0.5rem;
+	line-height: 1.375rem;
+}
+
+.wireframes .list-unstyled .media-body {
 	margin-left: 0.625rem;
 }
 
