@@ -11,5 +11,85 @@
     font-weight: bolder;
     font-size: xx-large;
     line-height: initial;
-    /*font-family: 'Modak', cursive;*/
 }
+
+
+.init-solution2 {
+    padding-top: 7rem;
+    padding-bottom: 7rem;
+}
+
+/*-----------------------------------slider for customer reviews*--------------------*/
+.slider {
+    padding-top: 7rem;
+    padding-bottom: 7rem;
+    background-color: #153e52;
+}
+
+.slider h2 {
+    margin-bottom: 2.75rem;
+    text-align: center;
+}
+
+.slider .slider-container {
+    position: relative;
+}
+
+.slider .swiper-container {
+    position: static;
+    width: 90%;
+    text-align: center;
+}
+
+.slider .swiper-button-prev:focus,
+.slider .swiper-button-next:focus {
+    /* even if you can't see it chrome you can see it on mobile device */
+    outline: none;
+}
+
+.slider .swiper-button-prev {
+    left: -0.5rem;
+    background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20viewBox%3D'0%200%2028%2044'%3E%3Cpath%20d%3D'M0%2C22L22%2C0l2.1%2C2.1L4.2%2C22l19.9%2C19.9L22%2C44L0%2C22L0%2C22L0%2C22z'%20fill%3D'%23787976'%2F%3E%3C%2Fsvg%3E");
+    background-size: 1.125rem 1.75rem;
+}
+
+.slider .swiper-button-next {
+    right: -0.5rem;
+    background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20viewBox%3D'0%200%2028%2044'%3E%3Cpath%20d%3D'M27%2C22L27%2C22L5%2C44l-2.1-2.1L22.8%2C22L2.9%2C2.1L5%2C0L27%2C22L27%2C22z'%20fill%3D'%23787976'%2F%3E%3C%2Fsvg%3E");
+    background-size: 1.125rem 1.75rem;
+}
+
+.slider .card {
+    position: relative;
+    border: none;
+    background-color: transparent;
+}
+
+.slider .card-image {
+    width: 6rem;
+    height: 6rem;
+    margin-right: auto;
+    margin-bottom: 0.25rem;
+    margin-left: auto;
+    border-radius: 50%;
+}
+
+.slider .card .card-body {
+    padding-bottom: 0;
+}
+
+.slider .testimonial-text {
+    margin-bottom: 0.625rem;
+    font-size: 0.8rem;
+    color: white;
+}
+
+.slider .testimonial-author {
+    color: white;
+}
+
+.slider .testimonial-feedback {
+    color: white;
+    font-style: italic;
+}
+/*-----------------------------------End of slider for customer reviews*--------------------*/
