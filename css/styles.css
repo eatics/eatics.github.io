@@ -1458,7 +1458,6 @@ input[type='checkbox'] {
 /*     13. Wireframes     */
 /****************************/
 .wireframes {
-  padding-bottom: 6.5rem;
   padding-top: 8.5rem;
 }
 
@@ -1490,6 +1489,65 @@ input[type='checkbox'] {
 .wireframes .list-unstyled .media-body {
   margin-left: 0.625rem;
 }
+
+.customer-validation {
+  padding-top: 7rem;
+  padding-bottom: 7rem;
+}
+
+/************************/
+/****************************/
+/*     13. User personas    */
+/****************************/
+.user-personas .text-container {
+  padding-top: 8.5rem;
+  margin-bottom: 1rem;
+}
+
+.user-personas .section-title {
+  margin-bottom: 0.5rem;
+}
+.user-personas .ul {
+  list-style-type: circle;
+}
+
+.user-personas .li {
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+.user-personas .row {
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.user-personas .list-unstyled .fas {
+  color: #153e52;
+  font-size: 0.5rem;
+  line-height: 1.375rem;
+}
+
+.user-personas .list-unstyled .media-body {
+  margin-left: 0.625rem;
+}
+
+/************************/
+/****************************/
+/*     13. Use case flow    */
+/****************************/
+.use-case-flow .text-container {
+  padding-top: 8.5rem;
+  margin-bottom: 1rem;
+}
+
+.use-case-flow .section-title {
+  margin-bottom: 0.5rem;
+}
+
+.use-case-flow .row {
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
 
 /************************/
 /****************************/
