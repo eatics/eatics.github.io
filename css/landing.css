@@ -1,0 +1,15 @@
+
+.advantages2 .container .image {
+    width: 50%;
+    height: 50%;
+    display: block;
+    margin: auto;
+}
+
+.advantages2 .container .text {
+    text-align: center;
+    font-weight: bolder;
+    font-size: xx-large;
+    line-height: initial;
+    /*font-family: 'Modak', cursive;*/
+}
