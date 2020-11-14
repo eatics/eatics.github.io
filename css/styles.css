@@ -1583,8 +1583,8 @@ input[type='checkbox'] {
 /*     13. Use case flow    */
 /****************************/
 .use-case-flow .text-container {
-  padding-top: 8.5rem;
-  margin-bottom: 1rem;
+  padding-top: 6.5rem;
+  padding-bottom: 6.5rem;
 }
 
 .use-case-flow .section-title {
