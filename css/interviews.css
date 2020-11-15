@@ -1,5 +1,5 @@
 
-/*-----------------------------------slider for interviews --------------------*/
+/*-----------------------------------slider for interviews--------------------*/
 #interviews .slider {
     padding-top: 7rem;
     padding-bottom: 7rem;
@@ -43,7 +43,6 @@
     position: relative;
     border: none;
     background-color: transparent;
-    width: 1000rem;
 }
 
 #interviews .slider .card-image {
@@ -73,4 +72,4 @@
     color: white;
     font-style: italic;
 }
-/*-----------------------------------End of slider for interviews --------------------*/
+/*-----------------------------------End of slider for interviews--------------------*/
