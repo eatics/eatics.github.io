@@ -32,8 +32,8 @@
     });
 
     // function for newsletter
-    $(function(){
-        $('.one form .btn').on('click',function(){
+   /* $(function(){
+        $('.one form .subscribe').on('click',function(){
             $(this).parents('.one').animate({
                 top : '-500px'
             },500);
@@ -55,7 +55,7 @@
             },500);
             return false;
         });
-    });
+    });*/
 
 	// jQuery for page scrolling feature - requires jQuery Easing plugin
 	$(function() {

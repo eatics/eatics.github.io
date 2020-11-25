@@ -156,9 +156,6 @@ input[type='email']{
 }
 
 
-
-
-
 input[type='email']:active:focus,
 input[type='email']:focus,
 input[type='email']:hover{
@@ -197,7 +194,7 @@ input[type='email']:active:focus::-webkit-input-placeholder
     transition: all .3s ease-in-out;
 }
 
-.one  .btn{
+.one  #subscribe{
     width:85%;
     background:#ffc107;
     padding:15px;
@@ -209,13 +206,13 @@ input[type='email']:active:focus::-webkit-input-placeholder
     font-family: 'Open Sans', sans-serif;
 }
 
-.one  .btn:active:focus,
-.one  .btn:focus,
-.one  .btn:hover{
+.one  #subscribe:active:focus,
+.one  #subscribe:focus,
+.one  #subscribe:hover{
     outline : none;
 }
 
-.one .btn:hover{
+.one #subscribe:hover{
     cursor:pointer;
 }
 
