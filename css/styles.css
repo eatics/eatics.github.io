@@ -946,7 +946,6 @@ input[type='checkbox'] {
 /*     07. KeyPoints     */
 /***************************/
 .cards-1 {
-  padding-top: 3rem;
   padding-bottom: -2rem;
   align-content: center;
   display: grid;
@@ -1129,7 +1128,7 @@ input[type='checkbox'] {
 /*********************/
 .advantages2 {
   padding-bottom: 7rem;
-  padding-top: 12rem;
+  padding-top: 7rem;
 }
 
 .advantages2 .text-container {
@@ -1949,6 +1948,28 @@ a:hover.back-to-top {
   background-color: #13aa87;
 }
 
+a.register-now {
+  text-decoration: none;
+  position: fixed;
+  z-index: 999;
+  right: 0.75rem;
+  top: 7rem;
+  display: none;
+  width: 14rem;
+  padding-top: 10px;
+  height: auto;
+  border-radius: 1.875rem;
+  background: #14bf98 no-repeat center 47%;
+  text-align: center;
+  font-size: x-large;
+  color: #fff;
+  background-size: 1.125rem 1.125rem;
+}
+
+a:hover.register-now {
+  background-color: #13aa87;
+}
+
 /***************************/
 /*     20. Extra Pages     */
 /***************************/
@@ -2054,7 +2075,7 @@ a:hover.back-to-top {
   }
 
   .navbar-custom.top-nav-collapse {
-    padding: 0.375rem 1.5rem 0.375rem 2rem;
+    padding: 0.375rem 0rem 0.375rem 0rem;
     box-shadow: 0 0.0625rem 0.375rem 0 rgba(0, 0, 0, 0.1);
     background-color: #113448;
   }

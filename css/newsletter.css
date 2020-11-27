@@ -130,6 +130,13 @@
     margin: 20px auto;
 }
 
+.logox {
+    width: 20%;
+    height: auto;
+    display: inline-block;
+    padding-bottom: 10px;
+}
+
 .one .heading {
     color: #153e52;
     text-transform: capitalize;
