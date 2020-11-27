@@ -84,7 +84,7 @@
 
 .newsletter {
     width: 350px;
-    height: 520px;
+    height: 620px;
     background: #fff;
     margin: 20px auto;
     border-radius: 4px;
@@ -175,6 +175,35 @@ input[type='email']:hover {
 
 input[type='email']:focus::-webkit-input-placeholder,
 input[type='email']:active:focus::-webkit-input-placeholder {
+    font-size: 12px;
+    display: block;
+    -webkit-transform: translateY(-20px);
+    transform: translateY(-20px);
+}
+
+input[type='text'] {
+    width: 85%;
+    height: 60px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-bottom: -80px;
+    border: none;
+    border-bottom: 3px solid #ffc107;
+    overflow: auto;
+    position: relative;
+}
+
+
+input[type='text']:active:focus,
+input[type='text']:focus,
+input[type='text']:hover {
+    outline: none;
+    font-size: 20px;
+}
+
+
+input[type='text']:focus::-webkit-input-placeholder,
+input[type='text']:active:focus::-webkit-input-placeholder {
     font-size: 12px;
     display: block;
     -webkit-transform: translateY(-20px);
