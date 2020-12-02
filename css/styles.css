@@ -1595,6 +1595,111 @@ input[type='checkbox'] {
   margin-bottom: 25px;
 }
 
+/************************/
+/****************************/
+/*     14. Target market    */
+/****************************/
+.target-market .text-container {
+  padding-top: 7.5rem;
+  padding-bottom: 6.5rem;
+}
+
+.target-market .section-title {
+  margin-bottom: 0.5rem;
+}
+
+.target-market .row {
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+/************************/
+/****************************/
+/*     15. Competitors    */
+/****************************/
+.competitors .text-container {
+  padding-bottom: 6.5rem;
+}
+
+.competitors .section-title {
+  margin-bottom: 0.5rem;
+}
+
+.competitors .row {
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+/************************/
+/****************************/
+/*     16. Market share    */
+/****************************/
+
+.market-share {
+  padding-bottom: 5.625rem;
+  padding-top: 5.625rem;
+  background-color: #153e52;
+}
+
+.market-share p {
+  color: white;
+}
+
+.market-share h2 {
+  color: white;
+}
+
+.market-share .section-title {
+  margin-bottom: 0.5rem;
+}
+
+.market-share .ul {
+  list-style-type: circle;
+}
+
+.market-share .li {
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+.market-share .list-unstyled .media-body {
+  color: white;
+}
+.market-share .row {
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.market-share .list-unstyled .fas {
+  color: white;
+  font-size: 0.5rem;
+  line-height: 1.375rem;
+}
+
+.market-share .list-unstyled .media-body {
+  margin-left: 0.625rem;
+}
+
+/************************/
+/****************************/
+/*     17. Market value    */
+/****************************/
+.market-value .text-container {
+  padding-top: 6.5rem;
+  padding-bottom: 6.5rem;
+}
+
+.market-value .section-title {
+  margin-bottom: 0.5rem;
+}
+
+.market-value .row {
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.market-value-table p {
+  color: white;
+}
 
 /************************/
 /****************************/
