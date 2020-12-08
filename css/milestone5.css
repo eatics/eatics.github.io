@@ -1,0 +1,76 @@
+.insights .swiper-container .swiper-slide img {
+    width: inherit;
+}
+.insights .container .row .col-md-6 .promoting-image{
+    width: inherit;
+}
+.insights .container .row .wapp-img{
+    width: inherit;
+}
+.insights .swiper-container {
+    width: 100%;
+    height: 100%;
+}
+
+
+.insights .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    height: 100%;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+
+/*-----------------------------------slider for customer reviews*--------------------*/
+
+.slider {
+    padding-top: 7rem;
+    padding-bottom: 7rem;
+    background-color: #153e52;
+}
+
+.slider h2 {
+    margin-bottom: 2.75rem;
+    text-align: center;
+}
+
+.slider .slider-container {
+    position: relative;
+}
+
+.slider .swiper-container {
+    position: static;
+    width: 90%;
+    text-align: center;
+}
+
+.slider .swiper-button-prev:focus, .slider .swiper-button-next:focus {
+    /* even if you can't see it chrome you can see it on mobile device */
+    outline: none;
+}
+
+.slider .swiper-button-prev {
+    left: -0.5rem;
+    background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20viewBox%3D'0%200%2028%2044'%3E%3Cpath%20d%3D'M0%2C22L22%2C0l2.1%2C2.1L4.2%2C22l19.9%2C19.9L22%2C44L0%2C22L0%2C22L0%2C22z'%20fill%3D'%23787976'%2F%3E%3C%2Fsvg%3E");
+    background-size: 1.125rem 1.75rem;
+}
+
+.slider .swiper-button-next {
+    right: -0.5rem;
+    background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20viewBox%3D'0%200%2028%2044'%3E%3Cpath%20d%3D'M27%2C22L27%2C22L5%2C44l-2.1-2.1L22.8%2C22L2.9%2C2.1L5%2C0L27%2C22L27%2C22z'%20fill%3D'%23787976'%2F%3E%3C%2Fsvg%3E");
+    background-size: 1.125rem 1.75rem;
+}
+

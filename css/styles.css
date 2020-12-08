@@ -1386,6 +1386,12 @@ input[type='checkbox'] {
   color: white;
 }
 
+.insights h2 {
+  color: white;
+  margin-top: 5%;
+  margin-bottom: 2%;
+}
+
 .insights .features-container {
   color: white;
 }
