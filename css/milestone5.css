@@ -1,5 +1,6 @@
 .insights .swiper-container .swiper-slide img {
-    width: inherit;
+    width: auto;
+    height: 30vw;
 }
 .insights .container .row .col-md-6 .promoting-image{
     width: inherit;
