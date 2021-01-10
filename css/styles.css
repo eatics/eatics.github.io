@@ -1653,6 +1653,12 @@ input[type='checkbox'] {
 .mvp .list-unstyled .media-body {
   margin-left: 0.625rem;
 }
+
+.mvp .image-container {
+  width: 100%;
+  display: block;
+  text-align: center;
+}
 /************************/
 /****************************/
 /*     15. Competitors    */
