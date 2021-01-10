@@ -1659,6 +1659,26 @@ input[type='checkbox'] {
   display: block;
   text-align: center;
 }
+
+/************************/
+/****************************/
+/*     14. USER FEEDBACK    */
+/****************************/
+
+.userfeedback .text-container {
+  padding-top: 7.5rem;
+  padding-bottom: 6.5rem;
+}
+
+.userfeedback .section-title {
+  margin-bottom: 0.5rem;
+}
+
+.userfeedback .row {
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
 /************************/
 /****************************/
 /*     15. Competitors    */
